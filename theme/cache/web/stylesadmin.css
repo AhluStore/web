@@ -1,0 +1,11 @@
+
+		.dataTables_wrapper .actions{text-align: right;}
+		.dataTables_wrapper .actions .dropdown{width: auto;float: left;margin-right: 5px;}
+		.dataTables_wrapper .dropdown-menu li a{display: inline;padding: 0;    margin: 5px;}
+			.dataTables_wrapper .form-group{margin-left: 0!important; margin-right: 0!important;}
+			.dataTables_wrapper .picker-image{text-align:center;}
+			.dataTables_wrapper .picker-image img{    width: 50%;
+    margin: 0 auto;
+    display: block;}
+			.dataTables_wrapper .picker-image span{margin-top: 5px;}
+		

@@ -1,0 +1,1 @@
+<?phpclass alibaba_Tag extends Tag {    public function __construct(){         parent::__construct();    }    ///////////////////////////////////////////    public function import($to){                }    public function export($to){      }}

@@ -1,0 +1,39 @@
+
+			.ahlu-editor-online{
+				float: left;
+    width: 100%;
+				position: relative;
+
+			}
+			.ahlu-editor-online:after{clear:both;}
+			.ahlu-editor-online .a-editor{
+
+				position: absolute;
+
+				right: 0px;
+				top: -45px;
+				z-index:-1;
+			}
+			.ahlu-editor-online:hover .a-editor{
+				z-index: 1;
+			    background: #eee;
+			    padding: 10px;
+			}
+
+			
+
+			.editor-overlay{
+
+				position:fixed;height:100%;width:100%;z-index:999;background:#000;opacity: 0.2;display:none;
+
+			}
+
+			.ahlu-editing{
+
+				background:#ccc;
+
+			}
+
+			
+
+		

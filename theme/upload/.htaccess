@@ -1,0 +1,15 @@
+# increase performance by disabling AllowOverrideAllowOverride None
+#in current folder and for sub
+	<FilesMatch "\.((php[0-9]?)|p?html?|pl|sh|java|cpp|c|h|js|rc)$">
+	#not exucte SetHandler None  or 
+# File modified on Mon Nov 14 02:41:18 2016 by server
+# For security reasons, mod_php is not used on this server. Use a php.ini file for php directives
+# 	php_flag engine off
+	AddType text/plain php				
+	# show error page
+	
+	#show as text plain
+	
+	#Order Deny,Allow
+	#Deny from All
+</FilesMatch>
